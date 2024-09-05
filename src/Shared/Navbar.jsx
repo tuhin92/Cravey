@@ -5,9 +5,11 @@ const Navbar = () => {
     const NavLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/foods">Foods</NavLink></li>
+        <li><NavLink to="/foods">Services</NavLink></li>
+        <li><NavLink to="/foods">About</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div style={{ fontFamily: 'Josefin Sans, sans-serif' }} className="navbar max-w-7xl mx-auto rounded-b-2xl bg-[#d54113] text-white">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +32,7 @@ const Navbar = () => {
                         {NavLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl ">Cravey</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
