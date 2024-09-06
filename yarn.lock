@@ -352,6 +352,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/josefin-sans/-/josefin-sans-5.0.21.tgz#b1b74de5c2424079be7c717927d53c262750705d"
   integrity sha512-RmZp1no9pfeWdT38Q0Ta1oj6gik4+C68Crq7b0lSv0vpN9kZF3I5okcBgkFhfrxBlNDewWS5TPXzA2oP7XPD7Q==
 
+"@fontsource/righteous@^5.0.21":
+  version "5.0.21"
+  resolved "https://registry.yarnpkg.com/@fontsource/righteous/-/righteous-5.0.21.tgz#5ae428079579a1cb32f5198bd53ddfd02105f1aa"
+  integrity sha512-9lT3ZXhxLcnm3QkbjGuLL/9pg9umuzT54zOhCrBh7DW68vt+qlNwFzs1FNy/Kx0qg60AZWLN5wrU9Rrxgdyzdg==
+
 "@humanwhocodes/module-importer@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/module-importer/-/module-importer-1.0.1.tgz#af5b2691a22b44be847b0ca81641c5fb6ad0172c"
@@ -2210,6 +2215,11 @@ react-dom@^18.3.1:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
+
+react-icons@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-5.3.0.tgz#ccad07a30aebd40a89f8cfa7d82e466019203f1c"
+  integrity sha512-DnUk8aFbTyQPSkCfF8dbX6kQjXA9DktMeJqfjrg6cK9vwQVMxmcA3BfP4QoiztVmEHtwlTgLFsPuH2NskKT6eg==
 
 react-is@^16.13.1:
   version "16.13.1"

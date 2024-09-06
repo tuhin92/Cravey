@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider, } from "react-router-dom";
 import routes from './routes/Routes.jsx';
 import '@fontsource/josefin-sans'; // Defaults to weight 400
+import '@fontsource/righteous'; // Defaults to regular weight
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
