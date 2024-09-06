@@ -3,13 +3,14 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 import { MdDirectionsBike } from "react-icons/md";
 import { IoBagHandle } from "react-icons/io5";
 import { ImSpoonKnife } from "react-icons/im";
+import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
         <div className="hero md:-mt-20 mt-0 min-h-[600px]">
             <div className="mt-0 md:mt-20 hero-content flex-col lg:flex-row text-[#3d3c3c]">
-                <div style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
-                    <h1 className="text-3xl md:text-6xl font-extrabold">Fastest <br /> <span className='text-[#0393b7]'>Delivery</span> & <br /> Easy <span className='text-[#0393b7]'>Pickup</span></h1>
+                <div className='max-w-full lg:max-w-sm px-4' style={{ fontFamily: 'Josefin Sans, sans-serif' }}>
+                    <h1 className="text-3xl md:text-6xl font-extrabold">Fastest <span className='text-[#0393b7]'>Delivery</span> & Easy <span className='text-[#0393b7]'>Pickup</span></h1>
                     <p className="py-6 max-w-sm">
                         Cravey is an online food-making and delivery service,  offering fresh, delicious meals delivered straight to your door for a convenient and tasty dining experience.
                     </p>
