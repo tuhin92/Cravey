@@ -16,7 +16,7 @@ const Best_deliver_product = () => {
           <img
             src="https://i.ibb.co.com/fqCpmn3/1-removebg-preview.png"
             alt="Soft Beverage"
-            className="w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
+            className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
           />
           <div className="text-[#3d3c3c] -mt-4">
             <h2 className="font-bold text-lg">Soft Beverage</h2>
@@ -36,7 +36,7 @@ const Best_deliver_product = () => {
           <img
             src="https://i.ibb.co.com/mDdp7NT/3-removebg-preview.png"
             alt="Fruits Juice"
-            className="w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
+            className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
           />
           <div className="text-[#3d3c3c] -mt-2">
             <h2 className="font-bold text-lg">Fruits Juice</h2>
@@ -56,7 +56,7 @@ const Best_deliver_product = () => {
           <img
             src="https://i.ibb.co.com/NWKWqYk/2-removebg-preview.png"
             alt="French Fries"
-            className="w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
+            className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
           />
           <div className="text-[#3d3c3c] -mt-4">
             <h2 className="font-bold text-lg">French Fries</h2>
