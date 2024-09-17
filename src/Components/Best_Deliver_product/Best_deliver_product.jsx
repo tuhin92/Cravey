@@ -1,79 +1,49 @@
 import React from "react";
-import { IoIosArrowForward } from "react-icons/io";
+import { ArrowRight } from "lucide-react";
 
-const Best_deliver_product = () => {
+const BestDeliveredCategories = () => {
+  const categories = [
+    { name: "Soft Beverage", image: "https://i.ibb.co.com/fqCpmn3/1-removebg-preview.png" },
+    { name: "Fruits Juice", image: "https://i.ibb.co.com/mDdp7NT/3-removebg-preview.png" },
+    { name: "French Fries", image: "https://i.ibb.co.com/NWKWqYk/2-removebg-preview.png" },
+  ];
+
   return (
-    <div className="max-w-7xl mx-auto my-12">
-      <h1
-        className="text-2xl md:text-4xl font-extrabold text-center text-[#3d3c3c]"
-        style={{ fontFamily: "Josefin Sans, sans-serif" }}
-      >
-        Best <span className="text-[#0393b7]">Delivered</span> Categories
-      </h1>
+    <section className="bg-gray-50 py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 style={{ fontFamily: "Josefin Sans, sans-serif" }} className="text-2xl md:text-4xl font-extrabold text-center text-[#3d3c3c] mb-12">
+          Best <span className="text-blue-500">Delivered</span> Categories
+        </h1>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 p-6">
-        <div className="text-center">
-          <img
-            src="https://i.ibb.co.com/fqCpmn3/1-removebg-preview.png"
-            alt="Soft Beverage"
-            className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
-          />
-          <div className="text-[#3d3c3c] -mt-4">
-            <h2 className="font-bold text-lg">Soft Beverage</h2>
-            <div className="flex items-center justify-center space-x-2 mt-2">
-              <a
-                href="#"
-                className="hover:underline text-[#0393b7] font-semibold"
-              >
-                Order Now
-              </a>
-              <IoIosArrowForward className="text-[#0393b7] mt-1 text-lg" />
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {categories.map((category, index) => (
+            <div 
+              key={index} 
+              className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:shadow-xl hover:scale-105"
+            >
+              <div className="p-6">
+                <div className="mb-6 h-48 flex items-center justify-center">
+                  <img
+                    src={category.image}
+                    alt={category.name}
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
+                <h2 className="font-bold text-xl text-gray-800 mb-4">{category.name}</h2>
+                <a
+                  href="#"
+                  className="inline-flex items-center text-blue-500 font-semibold hover:text-blue-600 transition duration-300"
+                >
+                  Order Now
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <img
-            src="https://i.ibb.co.com/mDdp7NT/3-removebg-preview.png"
-            alt="Fruits Juice"
-            className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
-          />
-          <div className="text-[#3d3c3c] -mt-2">
-            <h2 className="font-bold text-lg">Fruits Juice</h2>
-            <div className="flex items-center justify-center space-x-2 mt-2">
-              <a
-                href="#"
-                className="hover:underline text-[#0393b7] font-semibold"
-              >
-                Order Now
-              </a>
-              <IoIosArrowForward className="text-[#0393b7] mt-1 text-lg" />
-            </div>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <img
-            src="https://i.ibb.co.com/NWKWqYk/2-removebg-preview.png"
-            alt="French Fries"
-            className="w-8/12 sm:w-7/12 md:w-6/12 lg:w-10/12 h-auto mx-auto transition-transform duration-300 hover:scale-105"
-          />
-          <div className="text-[#3d3c3c] -mt-4">
-            <h2 className="font-bold text-lg">French Fries</h2>
-            <div className="flex items-center justify-center space-x-2 mt-2">
-              <a
-                href="#"
-                className="hover:underline text-[#0393b7] font-semibold"
-              >
-                Order Now
-              </a>
-              <IoIosArrowForward className="text-[#0393b7] mt-1 text-lg" />
-            </div>
-          </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Best_deliver_product;
+export default BestDeliveredCategories;
