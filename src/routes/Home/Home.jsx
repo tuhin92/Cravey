@@ -1,9 +1,9 @@
 import React from 'react';
-import Banner from './Banner';
-import Best_deliver_product from '../Best_Deliver_product/Best_deliver_product';
-import DeliveryBanner from './DeliveryBanner';
-import Serve from '../Serve/Serve';
-import Discount_banner from '../Discount_Banner/Discount_banner';
+import Banner from '../../Components/Banner';
+import Best_deliver_product from '../../Components/Best_Deliver_product/Best_deliver_product';
+import DeliveryBanner from '../../Components/DeliveryBanner';
+import Serve from '../../Components/Serve/Serve';
+import Discount_banner from '../../Components/Discount_Banner/Discount_banner';
 
 
 const Home = () => {

@@ -5,8 +5,8 @@ const Navbar = () => {
     const NavLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/foods">Foods</NavLink></li>
-        <li><NavLink to="/foods">Services</NavLink></li>
-        <li><NavLink to="/foods">About</NavLink></li>
+        <li><NavLink to="/services">Services</NavLink></li>
+        <li><NavLink to="/about">About</NavLink></li>
     </>
     return (
         <div style={{ fontFamily: 'Josefin Sans, sans-serif' }} className="navbar max-w-7xl mx-auto rounded-b-2xl bg-[#0393b7] text-white">
