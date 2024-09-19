@@ -3,9 +3,9 @@ import { ArrowRight } from "lucide-react";
 
 const BestDeliveredCategories = () => {
   const categories = [
-    { name: "Soft Beverage", image: "https://i.ibb.co.com/fqCpmn3/1-removebg-preview.png" },
-    { name: "Fruits Juice", image: "https://i.ibb.co.com/mDdp7NT/3-removebg-preview.png" },
-    { name: "French Fries", image: "https://i.ibb.co.com/NWKWqYk/2-removebg-preview.png" },
+    { name: "Soft Beverage", image: "https://i.ibb.co/fqCpmn3/1-removebg-preview.png" },
+    { name: "Fruits Juice", image: "https://i.ibb.co/mDdp7NT/3-removebg-preview.png" },
+    { name: "French Fries", image: "https://i.ibb.co/NWKWqYk/2-removebg-preview.png" },
   ];
 
   return (
@@ -15,7 +15,7 @@ const BestDeliveredCategories = () => {
           Best <span className="text-blue-500">Delivered</span> Categories
         </h1>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {categories.map((category, index) => (
             <div 
               key={index} 

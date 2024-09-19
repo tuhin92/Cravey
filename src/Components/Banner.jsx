@@ -50,9 +50,6 @@ const Banner = () => {
                             <p className='font-semibold text-sm text-[#7d7c7c]'>Promise to deliver within 30 minutes</p>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
